@@ -20,6 +20,10 @@ end
 
 Hekili.AllowSimCImports = true
 
+Hekili.IsSoD = function()
+    return Hekili.Flavor == "SoD"
+end
+	
 Hekili.IsRetail = function()
     return Hekili.Flavor == "Retail"
 end
